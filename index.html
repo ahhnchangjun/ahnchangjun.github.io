@@ -1,215 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Changjun Ahn — Computer Vision, Continual Learning, and Vision-Language Models researcher." />
-  <title>Changjun Ahn | AI Researcher</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Resume of Changjun Ahn, an AI researcher working on continual learning, computer vision, and vision-language models.">
+  <title>Changjun Ahn — Resume</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap nav-wrap">
-      <a class="brand" href="#top">CA</a>
-      <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#publications">Publications</a>
-        <a href="#projects">Projects</a>
-        <a href="#awards">Awards</a>
-        <a class="nav-resume" href="assets/Changjun_Ahn_Resume.pdf" target="_blank">Resume</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="top">
-    <section class="hero wrap">
-      <div class="hero-copy">
-        <p class="eyebrow">AI RESEARCHER · COMPUTER VISION</p>
+  <main class="resume">
+    <header class="masthead">
+      <div>
+        <p class="overline">AI Researcher · Computer Vision</p>
         <h1>Changjun Ahn</h1>
-        <p class="hero-subtitle">Continual Learning · Vision-Language Models · Computer Vision</p>
-        <p class="hero-lead">
-          M.S. student in Electrical and Electronic Engineering at Korea University,
-          working on robust and adaptive learning for foundation models.
-        </p>
-        <div class="hero-actions">
-          <a class="btn primary" href="assets/Changjun_Ahn_Resume.pdf" target="_blank">View Resume</a>
-          <a class="btn ghost" href="https://github.com/ahnchangjun" target="_blank">GitHub</a>
-          <a class="btn ghost" href="mailto:qkqk1009@gmail.com">Email</a>
-        </div>
+        <p class="focus">Continual Learning · Vision-Language Models · Foundation Models</p>
       </div>
-
-      <aside class="hero-card">
-        <div class="monogram">CA</div>
-        <div class="profile-line"><span>Current</span><strong>Korea University</strong></div>
-        <div class="profile-line"><span>Advisor</span><strong>Prof. Wonjun Hwang</strong></div>
-        <div class="profile-line"><span>Focus</span><strong>Continual Learning · VLM</strong></div>
-        <div class="profile-line"><span>Website</span><strong>ahnchangjun.github.io</strong></div>
-      </aside>
-    </section>
-
-    <section id="about" class="section wrap">
-      <div class="section-kicker">01</div>
-      <div class="section-content">
-        <h2>About</h2>
-        <p class="section-intro">
-          My research focuses on understanding why pretrained vision-language models degrade under sequential updates,
-          and on designing efficient mechanisms that preserve previously learned knowledge while adapting to new classes and environments.
-        </p>
-        <div class="about-grid">
-          <div>
-            <h3>Research Interests</h3>
-            <div class="chips">
-              <span>Computer Vision</span><span>Continual Learning</span><span>Vision-Language Models</span>
-              <span>Foundation Models</span><span>Multimodal Learning</span><span>Adaptive AI</span>
-            </div>
-          </div>
-          <div>
-            <h3>Skills</h3>
-            <div class="skill-list"><span>Python</span><span>PyTorch</span><span>C++</span><span>C</span></div>
-            <p class="muted">English · OPIc IH (Intermediate High)</p>
-          </div>
-        </div>
+      <div class="contact" aria-label="Contact information">
+        <a href="mailto:qkqk1009@gmail.com">qkqk1009@gmail.com</a>
+        <a href="https://github.com/ahhnchangjun">github.com/ahhnchangjun</a>
+        <a class="pdf" href="assets/Changjun_Ahn_Resume.pdf" target="_blank" rel="noopener">Download PDF ↗</a>
       </div>
-    </section>
-
-    <section class="section wrap">
-      <div class="section-kicker">02</div>
-      <div class="section-content">
-        <h2>Education</h2>
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="timeline-date">Sep 2025 — Feb 2027</div>
-            <div><h3>Korea University</h3><p>M.S. in Electrical and Electronic Engineering · GPA 4.10 / 4.50</p><p class="muted">Advisor: Prof. Wonjun Hwang · Expected graduation</p></div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-date">Mar 2024 — Aug 2025</div>
-            <div><h3>Ajou University</h3><p>M.S. coursework in Artificial Intelligence · GPA 4.18 / 4.50</p><p class="muted">Advisor: Prof. Wonjun Hwang · Transferred to Korea University</p></div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-date">Feb 2018 — Feb 2024</div>
-            <div><h3>Hanbat National University</h3><p>B.S. in Electronic and Control Engineering</p><p class="muted">GPA 3.62 / 4.50 · Major GPA 3.82 / 4.50</p></div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="publications" class="section wrap">
-      <div class="section-kicker">03</div>
-      <div class="section-content">
-        <h2>Publications</h2>
-
-        <article class="feature-paper">
-          <div class="paper-badge">Featured Research</div>
-          <h3>ESC: External Structural Compensator for CLIP-based Class-Incremental Learning</h3>
-          <p class="authors"><strong>Changjun Ahn</strong>, Wonjun Hwang</p>
-          <p class="venue">NeurIPS 2026 · Submitted · Under review</p>
-          <p>
-            A continual-learning framework that supplements CLIP's semantic representation with an external structural reference space,
-            aiming to preserve class geometry and reduce representation drift during sequential learning.
-          </p>
-          <div class="paper-tags"><span>CLIP</span><span>Continual Learning</span><span>Foundation Models</span></div>
-        </article>
-
-        <div class="paper-list">
-          <article class="paper-item">
-            <h3>Reducing Noise via Decomposing Gradient in Deep Mutual Learning</h3>
-            <p class="authors"><strong>Changjun Ahn</strong>, Minsik Kim, Mingeon Choi, Wonjun Hwang</p>
-            <p class="venue">ICEIC 2026 · IEEE Xplore 11386058 · January 2026</p>
-          </article>
-          <article class="paper-item">
-            <h3>Loop based Continual Learning</h3>
-            <p class="authors"><strong>Changjun Ahn</strong>, Yunho Jeon, Wonjun Hwang</p>
-            <p class="venue">Journal of Broadcast Engineering · Vol. 30, No. 4 · July 2025</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects" class="section wrap">
-      <div class="section-kicker">04</div>
-      <div class="section-content">
-        <h2>Selected Projects</h2>
-        <div class="project-grid">
-          <article class="project-card featured">
-            <div class="card-label">Graduate Research</div>
-            <h3>악천후/비정형 환경변화에서의 Seamless 자율주행을 위한 인지/판단 AI SW 핵심기술 개발</h3>
-            <p class="project-meta">ETRI · IITP · Apr 2023 — Dec 2026</p>
-          </article>
-          <article class="project-card">
-            <div class="card-label">Graduate Research</div>
-            <h3>휴먼-AI 동반자 시대를 위한 AGI: 신뢰성·윤리성·적응성을 갖춘 차세대 범용 인공지능 개발</h3>
-            <p class="project-meta">IITP · Apr 2025 — Dec 2029</p>
-          </article>
-          <article class="project-card">
-            <div class="card-label">Graduate Research</div>
-            <h3>三無: 無데이터, 無학습, 無모델 기반의 탄소 중립 실현을 위한 AI 시스템 기술 개발</h3>
-            <p class="project-meta">MSIT / IITP · Sep 2025 — Aug 2028</p>
-          </article>
-          <article class="project-card">
-            <div class="card-label">Graduate Research</div>
-            <h3>클라우드 기반 자율주행 AI 학습 SW 개발</h3>
-            <p class="project-meta">Korea Autonomous Driving Development Innovation Foundation · IITP · Mar 2024 — Dec 2024</p>
-          </article>
-          <article class="project-card">
-            <div class="card-label">Undergraduate · Team Lead</div>
-            <h3>Autonomous Emergency Vehicle</h3>
-            <p>Global capstone design program in Slovakia.</p>
-            <p class="project-meta">Jan — Feb 2023 · Gold Prize</p>
-          </article>
-          <article class="project-card">
-            <div class="card-label">Living Lab · Team Lead</div>
-            <h3>Passenger Safety & Automatic Alighting System</h3>
-            <p class="project-meta">Jun — Dec 2021 · Best Prize</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="awards" class="section wrap">
-      <div class="section-kicker">05</div>
-      <div class="section-content two-col-content">
-        <div>
-          <h2>Patent</h2>
-          <article class="patent-card">
-            <h3>파운데이션 모델 기반 클래스 증분 학습 방법 및 장치</h3>
-            <p>Wonjun Hwang, <strong>Changjun Ahn</strong></p>
-            <p class="muted">Korean patent application 10-2026-0119937 · Filed June 30, 2026 · Patent pending</p>
-          </article>
-        </div>
-        <div>
-          <h2>Awards</h2>
-          <ul class="award-list">
-            <li><strong>Gold Prize</strong><span>Global Capstone Design Program · Feb 2023</span></li>
-            <li><strong>Gold Prize</strong><span>Community Problem Discovery Competition · Jan 2022</span></li>
-            <li><strong>Best Prize</strong><span>SOS Citizen Research Group · Dec 2021</span></li>
+    </header>
+    <div class="layout">
+      <aside class="sidebar">
+        <section>
+          <h2>Profile</h2>
+          <p>M.S. student in Electrical and Electronic Engineering at Korea University, researching robust and adaptive learning for foundation models.</p>
+        </section>
+        <section>
+          <h2>Research interests</h2>
+          <ul class="plain-list">
+            <li>Continual Learning</li><li>Computer Vision</li><li>Vision-Language Models</li><li>Foundation Models</li><li>Multimodal Learning</li>
           </ul>
-        </div>
+        </section>
+        <section>
+          <h2>Skills</h2>
+          <p><strong>Programming</strong><br>Python, PyTorch, C++, C</p>
+          <p><strong>English</strong><br>OPIc IH</p>
+        </section>
+        <section>
+          <h2>Awards</h2>
+          <ul class="compact-list">
+            <li><strong>Gold Prize</strong><span>Global Capstone Design Program · 2023</span></li>
+            <li><strong>Gold Prize</strong><span>Community Problem Discovery Competition · 2022</span></li>
+            <li><strong>Best Prize</strong><span>SOS Citizen Research Group · 2021</span></li>
+          </ul>
+        </section>
+      </aside>
+      <div class="content">
+        <section>
+          <h2>Education</h2>
+          <article class="entry"><div class="date">2025 — 2027</div><div><h3>Korea University</h3><p>M.S. in Electrical and Electronic Engineering · GPA 4.10 / 4.50</p><p class="detail">Advisor: Prof. Wonjun Hwang · Expected graduation Feb 2027</p></div></article>
+          <article class="entry"><div class="date">2024 — 2025</div><div><h3>Ajou University</h3><p>M.S. coursework in Artificial Intelligence · GPA 4.18 / 4.50</p><p class="detail">Transferred to Korea University</p></div></article>
+          <article class="entry"><div class="date">2018 — 2024</div><div><h3>Hanbat National University</h3><p>B.S. in Electronic and Control Engineering</p><p class="detail">GPA 3.62 / 4.50 · Major GPA 3.82 / 4.50</p></div></article>
+        </section>
+        <section>
+          <h2>Publications</h2>
+          <article class="publication featured"><p class="status">UNDER REVIEW · NEURIPS 2026</p><h3>ESC: External Structural Compensator for CLIP-based Class-Incremental Learning</h3><p><strong>Changjun Ahn</strong>, Wonjun Hwang</p></article>
+          <article class="publication"><p class="venue">ICEIC 2026 · IEEE Xplore 11386058</p><h3>Reducing Noise via Decomposing Gradient in Deep Mutual Learning</h3><p><strong>Changjun Ahn</strong>, Minsik Kim, Mingeon Choi, Wonjun Hwang</p></article>
+          <article class="publication"><p class="venue">Journal of Broadcast Engineering · Vol. 30, No. 4 · 2025</p><h3>Loop based Continual Learning</h3><p><strong>Changjun Ahn</strong>, Yunho Jeon, Wonjun Hwang</p></article>
+        </section>
+        <section>
+          <h2>Research experience</h2>
+          <article class="entry project"><div class="date">2025 — 2029</div><div><h3>Human-AI Companion AGI</h3><p>Reliable, ethical, and adaptive general-purpose AI · IITP</p></div></article>
+          <article class="entry project"><div class="date">2025 — 2028</div><div><h3>Data-, Training-, and Model-Free AI Systems</h3><p>AI systems technology for carbon neutrality · MSIT / IITP</p></div></article>
+          <article class="entry project"><div class="date">2023 — 2026</div><div><h3>Seamless Autonomous Driving</h3><p>Perception and decision AI for adverse and unstructured environments · ETRI / IITP</p></div></article>
+        </section>
+        <section>
+          <h2>Patent</h2>
+          <article class="publication"><p class="venue">Korean Patent Application 10-2026-0119937 · Pending</p><h3>Foundation Model-based Class-Incremental Learning Method and Apparatus</h3><p>Wonjun Hwang, <strong>Changjun Ahn</strong></p></article>
+        </section>
       </div>
-    </section>
-
-    <section class="contact-section">
-      <div class="wrap contact-inner">
-        <div><p class="eyebrow">CONTACT</p><h2>Let’s connect.</h2><p>For research discussions, collaboration, or opportunities.</p></div>
-        <div class="contact-links">
-          <a href="mailto:qkqk1009@gmail.com">qkqk1009@gmail.com</a>
-          <a href="https://github.com/ahnchangjun" target="_blank">github.com/ahnchangjun</a>
-          <a href="https://ahnchangjun.github.io" target="_blank">ahnchangjun.github.io</a>
-          <a href="assets/Changjun_Ahn_Resume.pdf" target="_blank">Resume PDF</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="wrap footer-inner">
-      <span>© <span id="year"></span> Changjun Ahn</span>
-      <span>ahnchangjun.github.io</span>
     </div>
-  </footer>
-
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </main>
 </body>
 </html>
